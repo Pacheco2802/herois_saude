@@ -966,6 +966,8 @@ function voltarSelecao() {
   document.getElementById('app').style.display = 'none';
   S.role = null;
   S.novosNaoVistos = 0;
+  S.pessoas = [];
+  S.filtros = { categoria: 'todos', status: 'todos', premiacao: 'todos', lista: 'todos' };
 }
 
 // ── Carregamento ─────────────────────────────────────────────────────────────
@@ -1248,6 +1250,8 @@ async function salvarPessoa() {
   const nome = document.getElementById('f-nome').value.trim();
   if (!nome) { document.getElementById('f-nome').focus(); return; }
 
+  const id = document.getElementById('edit-id').value;
+
   const body = {
     nome,
     cargo: document.getElementById('f-cargo').value.trim(),
@@ -1258,8 +1262,6 @@ async function salvarPessoa() {
     local_trabalho: document.getElementById('f-local').value.trim(),
     observacoes: document.getElementById('f-obs').value.trim(),
   };
-
-  const id = document.getElementById('edit-id').value;
   const url = id ? `/api/pessoas/${id}` : '/api/pessoas';
   const method = id ? 'PUT' : 'POST';
 

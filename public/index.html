@@ -1217,7 +1217,7 @@ function abrirEditar(id) {
   document.getElementById('f-nome').value = p.nome;
   document.getElementById('f-cargo').value = p.cargo || '';
   document.getElementById('f-categoria').value = p.categoria;
-  document.getElementById('f-status').value = p.status;
+  document.getElementById('edit-id').dataset.status = p.status;
   document.getElementById('f-local').value = p.local_trabalho || '';
   document.getElementById('f-obs').value = p.observacoes || '';
   toggleLista(p.na_lista_original === 1);
@@ -1228,7 +1228,6 @@ function abrirEditar(id) {
 function limparForm() {
   ['f-nome','f-cargo','f-local','f-obs'].forEach(id => document.getElementById(id).value = '');
   document.getElementById('f-categoria').value = 'convidado';
-  document.getElementById('f-status').value = 'pendente';
   toggleLista(true);
   togglePremiado(false);
 }
@@ -1253,10 +1252,9 @@ async function salvarPessoa() {
     nome,
     cargo: document.getElementById('f-cargo').value.trim(),
     categoria: document.getElementById('f-categoria').value,
-    status: document.getElementById('f-status').value,
     na_lista_original: document.getElementById('f-lista').value === '1',
     premiado: document.getElementById('f-premiado').value === '1',
-    ...(id ? {} : { status: 'presente' }),
+    status: id ? (document.getElementById('edit-id').dataset.status || 'pendente') : 'presente',
     local_trabalho: document.getElementById('f-local').value.trim(),
     observacoes: document.getElementById('f-obs').value.trim(),
   };

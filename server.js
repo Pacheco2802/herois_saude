@@ -74,7 +74,7 @@ app.post('/api/pessoas', (req, res) => {
     categoria || 'convidado',
     na_lista_original ? 1 : 0,
     (observacoes || '').trim(),
-    status || 'pendente',
+    status || 'presente',
     premiado ? 1 : 0,
     (local_trabalho || '').trim()
   );

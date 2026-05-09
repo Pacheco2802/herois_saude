@@ -1,0 +1,17 @@
+{
+  "name": "heroissaude-confirmacao",
+  "version": "1.0.0",
+  "description": "Sistema de confirmação de cadastro para eventos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "dev": "nodemon --exec \"node --experimental-sqlite\" server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

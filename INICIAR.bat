@@ -8,5 +8,5 @@ echo  ==========================================
 echo.
 echo  Iniciando servidor...
 echo.
-node --experimental-sqlite server.js
+node server.js
 pause

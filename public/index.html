@@ -577,30 +577,30 @@
 
     <!-- Sidebar filtros -->
     <aside>
-      <div class="sidebar-section">
-        <div class="sidebar-label">Todos</div>
-        <button class="filter-btn active" data-filter="todos" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#94a3b8"></span>
-          Todos os cadastros
-          <span class="count" id="cnt-todos">0</span>
-        </button>
+      <!-- Filtros ativos (combinados) -->
+      <div id="filtros-ativos" style="display:none;padding:10px 12px 0">
+        <div style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.4px;color:var(--gray);margin-bottom:6px">Filtros ativos</div>
+        <div id="filtros-tags" style="display:flex;flex-wrap:wrap;gap:4px"></div>
+        <button onclick="limparFiltros()" style="margin-top:8px;width:100%;padding:5px;border:1px dashed var(--border);border-radius:var(--radius);background:none;font-size:.75rem;color:var(--gray);cursor:pointer">✕ Limpar filtros</button>
       </div>
+      <hr class="sidebar-hr" style="margin-top:10px" />
 
       <div class="sidebar-section">
         <div class="sidebar-label">Categoria</div>
-        <button class="filter-btn" data-filter="diretor" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#2563eb"></span>
-          Diretores
+        <button class="filter-btn" data-grupo="categoria" data-val="todos" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#94a3b8"></span>Todos
+          <span class="count" id="cnt-todos">0</span>
+        </button>
+        <button class="filter-btn" data-grupo="categoria" data-val="diretor" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#2563eb"></span>Diretores
           <span class="count" id="cnt-diretores">0</span>
         </button>
-        <button class="filter-btn" data-filter="autoridade" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#7c3aed"></span>
-          Autoridades
+        <button class="filter-btn" data-grupo="categoria" data-val="autoridade" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#7c3aed"></span>Autoridades
           <span class="count" id="cnt-autoridades">0</span>
         </button>
-        <button class="filter-btn" data-filter="convidado" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#94a3b8"></span>
-          Convidados
+        <button class="filter-btn" data-grupo="categoria" data-val="convidado" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#94a3b8"></span>Convidados
           <span class="count" id="cnt-convidados">0</span>
         </button>
       </div>
@@ -608,20 +608,20 @@
       <hr class="sidebar-hr" />
 
       <div class="sidebar-section">
-        <div class="sidebar-label">Status</div>
-        <button class="filter-btn" data-filter="presente" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#16a34a"></span>
-          Confirmados Presentes
+        <div class="sidebar-label">Status de Presença</div>
+        <button class="filter-btn" data-grupo="status" data-val="todos" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#94a3b8"></span>Todos
+        </button>
+        <button class="filter-btn" data-grupo="status" data-val="presente" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#16a34a"></span>Presentes
           <span class="count" id="cnt-presentes">0</span>
         </button>
-        <button class="filter-btn" data-filter="ausente" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#dc2626"></span>
-          Confirmados Ausentes
+        <button class="filter-btn" data-grupo="status" data-val="ausente" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#dc2626"></span>Ausentes
           <span class="count" id="cnt-ausentes">0</span>
         </button>
-        <button class="filter-btn" data-filter="pendente" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#d97706"></span>
-          Pendentes
+        <button class="filter-btn" data-grupo="status" data-val="pendente" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#d97706"></span>Pendentes
           <span class="count" id="cnt-pendentes">0</span>
         </button>
       </div>
@@ -629,32 +629,34 @@
       <hr class="sidebar-hr" />
 
       <div class="sidebar-section">
-        <div class="sidebar-label">Lista</div>
-        <button class="filter-btn" data-filter="novos" onclick="aplicarFiltro(this)" id="btn-filter-novos">
-          <span class="dot" style="background:#7c3aed"></span>
-          ⚡ Novos Cadastros
-          <span class="count" id="cnt-novos">0</span>
+        <div class="sidebar-label">Premiação</div>
+        <button class="filter-btn" data-grupo="premiacao" data-val="todos" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#94a3b8"></span>Todos
         </button>
-        <button class="filter-btn" data-filter="lista_original" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#0284c7"></span>
-          Lista Original
-          <span class="count" id="cnt-lista-orig">0</span>
+        <button class="filter-btn" data-grupo="premiacao" data-val="premiados" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#b45309"></span>🏆 Premiados
+          <span class="count" id="cnt-premiados">0</span>
+        </button>
+        <button class="filter-btn" data-grupo="premiacao" data-val="nao_premiados" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#94a3b8"></span>Não Premiados
+          <span class="count" id="cnt-nao-premiados">0</span>
         </button>
       </div>
 
       <hr class="sidebar-hr" />
 
       <div class="sidebar-section">
-        <div class="sidebar-label">Premiação</div>
-        <button class="filter-btn" data-filter="premiados" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#b45309"></span>
-          🏆 Premiados
-          <span class="count" id="cnt-premiados">0</span>
+        <div class="sidebar-label">Lista</div>
+        <button class="filter-btn" data-grupo="lista" data-val="todos" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#94a3b8"></span>Todos
         </button>
-        <button class="filter-btn" data-filter="nao_premiados" onclick="aplicarFiltro(this)">
-          <span class="dot" style="background:#94a3b8"></span>
-          Não Premiados
-          <span class="count" id="cnt-nao-premiados">0</span>
+        <button class="filter-btn" data-grupo="lista" data-val="novos" onclick="aplicarFiltro(this)" id="btn-filter-novos">
+          <span class="dot" style="background:#7c3aed"></span>⚡ Novos Cadastros
+          <span class="count" id="cnt-novos">0</span>
+        </button>
+        <button class="filter-btn" data-grupo="lista" data-val="lista_original" onclick="aplicarFiltro(this)">
+          <span class="dot" style="background:#0284c7"></span>Lista Original
+          <span class="count" id="cnt-lista-orig">0</span>
         </button>
       </div>
     </aside>
@@ -888,7 +890,7 @@
 // ── Estado global ────────────────────────────────────────────────────────────
 const S = {
   role: null,
-  filtroAtivo: 'todos',
+  filtros: { categoria: 'todos', status: 'todos', premiacao: 'todos', lista: 'todos' },
   busca: '',
   pessoas: [],
   stats: {},
@@ -961,6 +963,8 @@ function entrar(role) {
     document.getElementById('quick-bar').style.display = 'flex';
   }
 
+  // Marca botões "Todos" como ativos ao entrar
+  document.querySelectorAll('[data-val="todos"]').forEach(b => b.classList.add('active'));
   carregarDados();
   carregarConfig();
 }
@@ -994,20 +998,56 @@ async function carregarConfig() {
 
 // ── Filtro e busca ───────────────────────────────────────────────────────────
 function aplicarFiltro(btn) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  S.filtroAtivo = btn.dataset.filter;
-  if (S.filtroAtivo === 'novos') {
+  const grupo = btn.dataset.grupo;
+  const val   = btn.dataset.val;
+  S.filtros[grupo] = val;
+
+  if (grupo === 'lista' && val === 'novos') {
     S.novosNaoVistos = 0;
     document.getElementById('alert-banner').classList.remove('visible');
     document.getElementById('btn-filter-novos').classList.remove('alert-pulse');
   }
+
+  // Marca botão ativo dentro do grupo
+  document.querySelectorAll(`[data-grupo="${grupo}"]`).forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  renderFiltrosAtivos();
+  renderTabela();
+}
+
+function limparFiltros() {
+  S.filtros = { categoria: 'todos', status: 'todos', premiacao: 'todos', lista: 'todos' };
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('[data-val="todos"]').forEach(b => b.classList.add('active'));
+  renderFiltrosAtivos();
   renderTabela();
 }
 
 function filtrarAlerta() {
-  const btn = document.querySelector('[data-filter="novos"]');
+  const btn = document.querySelector('[data-grupo="lista"][data-val="novos"]');
   aplicarFiltro(btn);
+}
+
+const LABELS_FILTRO = {
+  categoria:  { diretor: 'Diretores', autoridade: 'Autoridades', convidado: 'Convidados' },
+  status:     { presente: '✅ Presentes', ausente: '❌ Ausentes', pendente: '⏳ Pendentes' },
+  premiacao:  { premiados: '🏆 Premiados', nao_premiados: 'Não Premiados' },
+  lista:      { novos: '⚡ Novos', lista_original: 'Lista Original' },
+};
+
+function renderFiltrosAtivos() {
+  const tags = [];
+  for (const [grupo, val] of Object.entries(S.filtros)) {
+    if (val !== 'todos') tags.push(LABELS_FILTRO[grupo]?.[val] || val);
+  }
+  const wrap = document.getElementById('filtros-ativos');
+  const cont = document.getElementById('filtros-tags');
+  if (tags.length === 0) { wrap.style.display = 'none'; return; }
+  wrap.style.display = '';
+  cont.innerHTML = tags.map(t =>
+    `<span style="background:#eff6ff;color:var(--blue);border:1px solid #bfdbfe;border-radius:999px;padding:2px 8px;font-size:.72rem;font-weight:600">${t}</span>`
+  ).join('');
 }
 
 function buscar(val) {
@@ -1016,18 +1056,14 @@ function buscar(val) {
 }
 
 function pessoaPassaFiltro(p) {
-  const f = S.filtroAtivo;
-  if (f === 'todos') {}
-  else if (f === 'diretor') { if (p.categoria !== 'diretor') return false; }
-  else if (f === 'autoridade') { if (p.categoria !== 'autoridade') return false; }
-  else if (f === 'convidado') { if (p.categoria !== 'convidado') return false; }
-  else if (f === 'presente') { if (p.status !== 'presente') return false; }
-  else if (f === 'ausente') { if (p.status !== 'ausente') return false; }
-  else if (f === 'pendente') { if (p.status !== 'pendente') return false; }
-  else if (f === 'novos') { if (p.na_lista_original !== 0) return false; }
-  else if (f === 'lista_original') { if (p.na_lista_original !== 1) return false; }
-  else if (f === 'premiados') { if (!p.premiado) return false; }
-  else if (f === 'nao_premiados') { if (p.premiado) return false; }
+  const { categoria, status, premiacao, lista } = S.filtros;
+
+  if (categoria !== 'todos' && p.categoria !== categoria) return false;
+  if (status !== 'todos' && p.status !== status) return false;
+  if (premiacao === 'premiados' && !p.premiado) return false;
+  if (premiacao === 'nao_premiados' && p.premiado) return false;
+  if (lista === 'novos' && p.na_lista_original !== 0) return false;
+  if (lista === 'lista_original' && p.na_lista_original !== 1) return false;
 
   if (S.busca) {
     const hay = (p.nome + ' ' + p.cargo + ' ' + p.observacoes + ' ' + (p.local_trabalho || '')).toLowerCase();

@@ -220,6 +220,18 @@ io.on('connection', (socket) => {
   socket.on('ping_viewer', () => socket.emit('pong_viewer'));
 });
 
+// ── Seed automático ──────────────────────────────────────────────────────────
+
+function rodarSeedSeVazio() {
+  const total = db.prepare('SELECT COUNT(*) as n FROM pessoas').get().n;
+  if (total > 0) {
+    console.log(`ℹ️  Banco já possui ${total} pessoa(s) — seed ignorado.`);
+    return;
+  }
+  console.log('📋 Banco vazio — carregando lista de participantes...');
+  require('./seed');
+}
+
 // ── Start ────────────────────────────────────────────────────────────────────
 
 const PORT = process.env.PORT || 3000;
@@ -227,4 +239,5 @@ httpServer.listen(PORT, () => {
   console.log(`\n✅ Servidor rodando em http://localhost:${PORT}\n`);
   console.log(`   Operador:    http://localhost:${PORT}`);
   console.log(`   Visualizador: http://localhost:${PORT}?modo=visualizador\n`);
+  rodarSeedSeVazio();
 });

@@ -227,14 +227,19 @@ io.on('connection', (socket) => {
 });
 
 // ── Seed automático ──────────────────────────────────────────────────────────
+// Só roda se SEED_ON_START=true (evita popular com dados de eventos antigos).
 
 function rodarSeedSeVazio() {
   const total = db.prepare('SELECT COUNT(*) as n FROM pessoas').get().n;
   if (total > 0) {
-    console.log(`ℹ️  Banco já possui ${total} pessoa(s) — seed ignorado.`);
+    console.log(`ℹ️  Banco já possui ${total} pessoa(s).`);
     return;
   }
-  console.log('📋 Banco vazio — carregando lista de participantes...');
+  if (process.env.SEED_ON_START !== 'true') {
+    console.log('ℹ️  Banco vazio — aguardando cadastros (defina SEED_ON_START=true para rodar seed.js).');
+    return;
+  }
+  console.log('📋 Banco vazio — carregando lista de participantes do seed.js...');
   require('./seed');
 }
 

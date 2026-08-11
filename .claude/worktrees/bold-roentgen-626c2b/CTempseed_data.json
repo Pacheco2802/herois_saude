@@ -1,0 +1,1354 @@
+[
+  {
+    "nome": "Daiane Regis Pereira",
+    "cargo": "Técnica de Enfermagem",
+    "local_trabalho": "CLINICA E NEFROLOGIA LESTE",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Douglas do Nascimento Pocinho –",
+    "cargo": "Técnico de Enfermagem",
+    "local_trabalho": "HOSP ALVARENGA",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "IVETE TERESA DE SOUZA ALVARENGA",
+    "cargo": "Técnica de Enfermagem.",
+    "local_trabalho": "HOSP DO RIM - FUNDAÇÃO OSWALDO RAMOS",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "JULIANO GUEDES GALDINO",
+    "cargo": "",
+    "local_trabalho": "IMED",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria Dorotéia Guglielmi",
+    "cargo": "Enfermeira",
+    "local_trabalho": "SANTA CASA DE SÃO PAULO",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Nelson de Souza Assunção",
+    "cargo": "",
+    "local_trabalho": "Colsan",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Nilda Rosa Prado",
+    "cargo": "gerente de enfermagem",
+    "local_trabalho": "Sírio-Libanês",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Silmaia Tavares Santos",
+    "cargo": "TEC.ENF. TRABALHO SR",
+    "local_trabalho": "CEJAM",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Uberlândia dos Santos Nascimento",
+    "cargo": "",
+    "local_trabalho": "Hospital Municipal de Guarapiranga",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Domenico Antonio Donina Rodrigues",
+    "cargo": "Dentista",
+    "local_trabalho": "Ubs vila Isolina Mazzei",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Larissa Pinheiro Fioratti",
+    "cargo": "Nutricionista",
+    "local_trabalho": "Universidade Paulista - UNIP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "JOSÉ MESSIAS DOS SANTOS",
+    "cargo": "TÉCNICO DE ENFERMAGEM",
+    "local_trabalho": "Prefeitura Municipal de São Caetano do Sul",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "claudio santos albuquerque",
+    "cargo": "imprensa",
+    "local_trabalho": "Cidadao Consciente",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria de Lourdes Pereira Lima",
+    "cargo": "TEC de enfermagem",
+    "local_trabalho": "Associação saúde da família",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Sidney Gomes martins",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Hospital Albert Einstein",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Osvaldo de lima Júnior",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Prefeitura municipal de Diadema",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Eduarda Bezerra Martins",
+    "cargo": "Técnica de Enfermagem",
+    "local_trabalho": "Hospital Regional do Alto Tietê",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Jessica Aparecida Lopes Barduchi",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Caps Ad 2 VILA MADALENA PROSAM",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Eliana Pinto Dos Santos",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Spdm-pais",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "MIRIAN COSTA",
+    "cargo": "AADVOGADA , JORNALISTA , ATIVISTA SOCIAL",
+    "local_trabalho": "INCVF E FORENSE TEAM VRASIL/USA",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Douglas Rafael Bueno Bernardes",
+    "cargo": "Tenente Enfermeiro",
+    "local_trabalho": "Força Aérea / Comando da Aeronáutica",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Denis Mendes da Silva Rios",
+    "cargo": "Enfermeiro",
+    "local_trabalho": "11Care",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Ana Célia Edvirges de Sousa",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Spdmpais Hospital Municipal do Tatuapé - Dr. Cármino Caricchio",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Gabriel Henrique Rodrigues Leonardo",
+    "cargo": "Coordenador médico",
+    "local_trabalho": "Seconci",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Agatha Mesaroch",
+    "cargo": "Enfermeira",
+    "local_trabalho": "FUABC - Prefeitura Municipal de São Caetano do Sul",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Fabiana de Azevedo Garcia dos Santos",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Sociedade Beneficente Caminho de Damasco",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Vanessa damazio dos Santos Pereira",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Hospital Pitangueiras",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Lucas Marinho Goes de Sousa",
+    "cargo": "Enfermeiro",
+    "local_trabalho": "Casa de saúde Santa Marcelina",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "HILDA OLIVEIRA BARRETO",
+    "cargo": "Enfermeira",
+    "local_trabalho": "INTS/ UPA Pedreira",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Elizângela Pereira Guedes",
+    "cargo": "Enfermeira da Padronização de Materiais",
+    "local_trabalho": "Santa Casa de Misericórdia de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Elane de Fátima de Lima Santos",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Hospital geral do pedreira",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Neuza Aparecida Ferreira dos Santos",
+    "cargo": "Aposentada",
+    "local_trabalho": "Aposentada",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Erisvaldo Rodrigues da Silva",
+    "cargo": "Tecnico de Enfermagem",
+    "local_trabalho": "Prefeitura Municipal de Santos",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "ELLEN KARINA DOS SANTOS",
+    "cargo": "COORDENADOR DE ENFERMAGEM",
+    "local_trabalho": "FUNDAÇÃO ABC /HOSPITAL GUILHERME ÁLVARO",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Thais Barbosa do Nascimento",
+    "cargo": "Técnico de farmácia",
+    "local_trabalho": "Santa marcelina/ UBS Jardim Vitória",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Amanda Mendes de Maria Fernandes",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Santa Marcelina",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Caio da Silva Gonçalves",
+    "cargo": "Gerente técnico",
+    "local_trabalho": "UBS CATERINA DALLANESE",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Angela Ribeiro Lopes de Almeida",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Hospital Alvarenga",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Tatiane Protasio de Oliveira",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Spdm",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Priscila Alves da Silva",
+    "cargo": "Curativista/ Tec. De saúde bucal/ Diretoria da Associação Mulheres em Ação",
+    "local_trabalho": "Cuidadora de idosos autônoma/particular e na Associação Mulheres em Ação da Vila Queiroz em prol da comunidade e voluntária.",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Simone Aparecida de Moura Notaro",
+    "cargo": "Auxiliar de Enfermagem",
+    "local_trabalho": "Hospital Ipiranga",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Daniela dos Santos Batista",
+    "cargo": "Nutricionista",
+    "local_trabalho": "Particular",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria Aparecida Alves Sousa",
+    "cargo": "Tecnico de enfermagem",
+    "local_trabalho": "UFES/HUCAM",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Ana Cristina Ribeiro",
+    "cargo": "Enfermeira",
+    "local_trabalho": "ENESP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "João Henrique Muniz de Melo",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "SAMU 192 - Mogi das Cruzes",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maryane Silva da Fonseca",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Sociedade Brasileira caminho de damasco",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Crislaine Lidovina da Silva",
+    "cargo": "Enfermeira",
+    "local_trabalho": "Hospital das clinicas da faculdade de medicina da usp",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Adriano Roberto da Silva",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Nefrostar",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Ligia da Silva Lima",
+    "cargo": "Técnica de Enfermagem",
+    "local_trabalho": "INTS",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Fernando Ribeiro da Silva",
+    "cargo": "Supervisor de Enfermagem",
+    "local_trabalho": "Hospital Alvorada Moema",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Fátima Marangon gauna Quirino",
+    "cargo": "Aposentada",
+    "local_trabalho": "Sindicato",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Naína De Oliveira Coelho",
+    "cargo": "Enfermeira",
+    "local_trabalho": "UBS Jardim Gabriela",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria Lucia Ornelas Chaves Tozato",
+    "cargo": "Assistente Social",
+    "local_trabalho": "Prefeitura Municipal de São Caetano do Sul",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Polienny Rodrigues da Silva Felix",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "INTS",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Sônia Aparecida Faustino Macedo",
+    "cargo": "Análise clínica  farmacêutica",
+    "local_trabalho": "Aposentada",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Liz Andrea Santos Carvalho",
+    "cargo": "Gerente Assistencial",
+    "local_trabalho": "INTS",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Silvana Aparecida Andrade da Cunha",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Hospital japonês Santa Cruz",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Vagner Serafim de Deus",
+    "cargo": "Gerente de Saúde",
+    "local_trabalho": "SAS /SECONCI  HOSPITAL DIA PENHA HATIRO SHIMOMOTO",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Paulo da Silva Amorim",
+    "cargo": "Médico / clínico geral",
+    "local_trabalho": "Seconci",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Almir Rodrigues da Gama",
+    "cargo": "Técnico de Enfermagem",
+    "local_trabalho": "Hospital Santa Casa de Misericórdia de Santo Amaro",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "josé carlos ramos",
+    "cargo": "técnico de enfermagem",
+    "local_trabalho": "spdm pais",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Fabiana Monteiro de Oliveira Silva",
+    "cargo": "Técnico de Enfermagem",
+    "local_trabalho": "Instituto Dante Pazzanese de Cardiologia",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Angelica Aparecida dos Santos Lessa",
+    "cargo": "Técnica de Enfermagem",
+    "local_trabalho": "Sbcd",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Irene pedroso da Silva",
+    "cargo": "técnica de enfermagem",
+    "local_trabalho": "nefrostar Osasco",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Mônica Pereira da Silva Rocha",
+    "cargo": "Técnico de Enfermagem",
+    "local_trabalho": "Hospital 9 de Julho",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Julzira dos Santos velasquez",
+    "cargo": "Serviços  Gerais",
+    "local_trabalho": "Hospital Samaritano",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Rosângela Ferreira de Sousa Carvalho",
+    "cargo": "Supervisora Adm",
+    "local_trabalho": "Santa Casa de Misericórdia de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Carlos  da Silva  Velasquez",
+    "cargo": "Auxiliar de Enfermagem",
+    "local_trabalho": "Hospital São Paulo  SPDM",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria José da Silva",
+    "cargo": "Encarregada administrativa",
+    "local_trabalho": "Irmandade de misericórdia Santa Casa de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Eduardo donizete de lima",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Alpha",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Roseneide da Silva Xavier",
+    "cargo": "Enfermeira",
+    "local_trabalho": "UPA Pedreira- INTS  - Instituto Nacional de Tecnologia e Saúde.",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Marilucia Moura Ribeiro Mendes",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Hospital Euryclides de Jesus Zerbini",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "THIAGO SOUZA DE JESUS",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "HOSPITAL VITÓRIA",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Valeska Aparecida Marini",
+    "cargo": "Enfermeira RT",
+    "local_trabalho": "Fuabc",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Luciano Rodrigues da Silva",
+    "cargo": "Auxiliar de Enfermagem",
+    "local_trabalho": "Hospital Alvorada Moema",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Iran Muniz de Carvalho",
+    "cargo": "Tecnico de enfermagem",
+    "local_trabalho": "Hospital pronto socorro portinari.",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Dinis Alves da Silva",
+    "cargo": "Técnico de Imobilizações Ortopedicas",
+    "local_trabalho": "IRSSL Hospital Geral do Grajaú",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Grislaine Ramos de Oliveira",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Fundação do ABC",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Wemerson Soares de Oliveira",
+    "cargo": "Agente de saúde",
+    "local_trabalho": "Santa casa de Misericórdia de SP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Luciana barros reis",
+    "cargo": "Enfermeira III",
+    "local_trabalho": "Hospital 9 de julho",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Letícia Kelen Santos Silva",
+    "cargo": "Enfermeiro",
+    "local_trabalho": "Hospital 9 de Julho",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Vanessa Cavaco de Jesus",
+    "cargo": "Analista de Ouvidoria",
+    "local_trabalho": "OSS SBCD Sociedade Brasileira Caminho de Damasco",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Carla de Melo Bossan",
+    "cargo": "Auxiliar de Enfermagem",
+    "local_trabalho": "Hospital das Clinicas da Faculdade de Medicina de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Thiago Rafael",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Ssvv são Vicente de Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Ramon Cavalcante Teixeira",
+    "cargo": "Médium",
+    "local_trabalho": "Casa de caridade Luz e amor",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Viviane Miranda das Neves",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Associação saúde da Família - ASF",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria Elizete Carlos da Silva Herdina",
+    "cargo": "Aux de Enfermagem.",
+    "local_trabalho": "Hospital São Luíz (Aposentada)",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Ana Maria de Camargo",
+    "cargo": "TEC. Enfermagem",
+    "local_trabalho": "Alvorada Moema",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Mariuza da Silva",
+    "cargo": "Supervisora gerenciamento de leitos",
+    "local_trabalho": "Irmandade Santa Casa de Misericórdia de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Francielli santos da silva",
+    "cargo": "Enfermeira",
+    "local_trabalho": "Santa casa de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Talita Gabrielle do Vale Teixeira Leite",
+    "cargo": "Supervisora de Enfermagem",
+    "local_trabalho": "Anteriormente Hospital Alvorada de Moema/ Atual Hospital Santa Helena",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maylson Cesario do Carmo",
+    "cargo": "Enfermeiro ( supervisor das UTIs)",
+    "local_trabalho": "Santa Casa de Sp",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Adriana Cruz de Goes",
+    "cargo": "Técnica de enfer",
+    "local_trabalho": "Hospital Albert Einstein",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Fernando Rogério de Jesus",
+    "cargo": "Supervisor de Segurança Patrimonial",
+    "local_trabalho": "Santa Casa de Misericórdia de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Áurea Cristina Neves Alves",
+    "cargo": "Encarregada de Hotelaria",
+    "local_trabalho": "Irmandade Santa Casa de Misericórdia de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Caroline Alves Ferreira",
+    "cargo": "Coordenadora de Pesquisa Clinica",
+    "local_trabalho": "Thermo Fisher Scientific",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Raul Santos Sodré",
+    "cargo": "Enfermeiro",
+    "local_trabalho": "Oss Sirio Libanês",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maryana Pereira de Oliveira",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Instituto Dante Pazanezze de Cardiologia",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Jeziel Dantas da Silva",
+    "cargo": "TEC de enfermagem",
+    "local_trabalho": "Hospital Monumento",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Ana Paula Federicci Dellanegra",
+    "cargo": "Gerente de Hotelaria",
+    "local_trabalho": "Santa Casa de Misericórdia de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "DIEGO DA SILVA",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Mosteiro São Geraldo de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maidel Epifania da Silva",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Einstein",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Andreia Aparecida Teixeira da Silva",
+    "cargo": "Diretora Financeira",
+    "local_trabalho": "Associação dos Servidores do Hospital das Clínicas",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Katia Regina Martins",
+    "cargo": "Agente de promoção ambiental",
+    "local_trabalho": "Seconci sas",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Luciana Alessandra de Carvalho Abdalla",
+    "cargo": "Enfermeira",
+    "local_trabalho": "Hospital Alvorada Moema",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "MARCUS VINICIUS DE LIMA OLIVEIRA",
+    "cargo": "Conselheiro",
+    "local_trabalho": "COREN-SP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Laila Nasser Sati",
+    "cargo": "Diretora Pedagógica",
+    "local_trabalho": "Colégio 24 de Março",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Marcilene vieira de oliveira santos",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Santa casa de misericórdia de são Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "NATALIA AUGUSTO RODRIGUES BORTOLOTTI",
+    "cargo": "Coordenadora da comissão permanente de Enfermagem Estética e Gestão de Negócios \nMembro da Câmara Técnica de Legislação e Normas do Cofen",
+    "local_trabalho": "COREN SP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Bruna de Alencar Carvalho",
+    "cargo": "Tec.de enfermagem",
+    "local_trabalho": "Clínica nefrologica São Miguel",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Euzébia Xavier Ribeiro de Lima",
+    "cargo": "TÉCNICO DE FARMÁCIA",
+    "local_trabalho": "SPDM PAIS",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Cristiane Silva Salino",
+    "cargo": "Assistente Social",
+    "local_trabalho": "Associação Saúde da Família",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria Nilde Brito Dias",
+    "cargo": "Enfermeira Assistencial",
+    "local_trabalho": "AMA Parque Figueira Grande",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "BENEdito Alves de Souza",
+    "cargo": "Conselheiro",
+    "local_trabalho": "CMSSP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Wilson Pereira de Souza junior",
+    "cargo": "Técnico de Enfermagem",
+    "local_trabalho": "INTS UPA SANTO AMARO",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "ELIANE DOS SANTOS DE SANTANA",
+    "cargo": "ANALISTA DE GESTÃO DE PESSOAS PLENO",
+    "local_trabalho": "SPDM AFILIADAS - FARMÁCIAS DE ALTO CUSTO",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Nicolau Marques dos Santos",
+    "cargo": "Assistente de Farmácia",
+    "local_trabalho": "Santa Casa de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Ana Paula putrino Tramonti",
+    "cargo": "Técnico enfermagem",
+    "local_trabalho": "Spdm",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Yago de Oliveira Torres Pinto",
+    "cargo": "Médico de família e comunidade / médico plantonista UPA / Médico na saúde prisional / preceptor da residência Mfc Praia Grande - SP",
+    "local_trabalho": "São Vicente SP ( vinculo via AGSUS ministério da saúde ) / Praia Grande - SP ( servidor público )",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Adenilza Alves de Souza",
+    "cargo": "TEC de enfermagem",
+    "local_trabalho": "Hospital da luz vila Mariana",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Elizete do Nascimento Silva",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Hospital Alvorada de Moema",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Rosangela Batista Bergamo",
+    "cargo": "Enfermeira Supervisora de Enfermagem",
+    "local_trabalho": "Hospital da Mulher Seconci-SP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Carolina Araújo Pontes",
+    "cargo": "Auxiliar Administrativo",
+    "local_trabalho": "Irmandade Santa Casa de Misericórdia de São Paulo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Sinara da Silva Brito",
+    "cargo": "Auxiliar de enfermagem/ Centro Cirúrgico",
+    "local_trabalho": "Seconci",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "ELBA LUISA FORERO FIGUEIREDO",
+    "cargo": "SUPERVISORA TÉCNICA - PROJETO REDE",
+    "local_trabalho": "SPDM - ASSOCIAÇÃO PAULISTA PARA O DESENVOLVIMENTO DA MEDICINA",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Leda dos Santos Silva",
+    "cargo": "Auxiliar Administrativo",
+    "local_trabalho": "Santa casa/Hospital São Luiz Gonzaga",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Luiza da Cruz Caramelo",
+    "cargo": "Supervisora técnica SADT",
+    "local_trabalho": "SECONCI-SP/Hospital da Mulher",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Dyego Alves Gonçalves",
+    "cargo": "Supervisor de Saúde",
+    "local_trabalho": "Secretaria de Saúde de Mongaguá-SP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Claudia Sales dos Santos",
+    "cargo": "Supervisora de enfermagem",
+    "local_trabalho": "SPDM",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria Agna Neres Barbosa",
+    "cargo": "Técnica de enfermagem",
+    "local_trabalho": "Ints",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Ronildo José dos Santos",
+    "cargo": "Técnico de enfermagem",
+    "local_trabalho": "Instituto Nacional de tecnologia e saúde INTS",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Abel Silva de Meneses",
+    "cargo": "Gerente Técnico",
+    "local_trabalho": "Centro de Estudos e Pesquisas Dr. João Amorim - CEJAM",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Roberto Enrique Kameo",
+    "cargo": "Gerente Médico",
+    "local_trabalho": "Hospital da Mulher - SECONCI SP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Celso ricard Dell agnolo",
+    "cargo": "Enfermeiro",
+    "local_trabalho": "Hapvida",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Alexandre Yuri de Siqueira Souza",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "Disponível para o mercado de trabalho",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria não Carmo Ramos Viana",
+    "cargo": "Enfermeira",
+    "local_trabalho": "Ints",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Daniel Alves de Souza",
+    "cargo": "Técnico de Enfermagem / Conselheiro",
+    "local_trabalho": "Hospital do Servidor Público Estadual / Coren-SP",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Gladni Briz Hugolini",
+    "cargo": "Coordenadora Assistencial",
+    "local_trabalho": "Hospital Nove de Julho",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "BARBARA CANALE SPEZAMILIO",
+    "cargo": "Auxiliar de enfermagem",
+    "local_trabalho": "CAPS III SAPOPEMBA - SPDM",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Carlos Antônio dos Santos",
+    "cargo": "Gerente de Enfermagem Corporativo",
+    "local_trabalho": "Complexo de Saúde de São Bernardo do Campo",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Alexandre Neves de jesus",
+    "cargo": "Agente de Promoção Ambiental",
+    "local_trabalho": "Cejam",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Diane Carine Moura",
+    "cargo": "Coordenadora de Administração de Pessoal",
+    "local_trabalho": "Hospital Alemão Oswaldo Cruz",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Angélica Berenice Ramos dos Santos",
+    "cargo": "Advogada",
+    "local_trabalho": "ATML Associação Templo Morgana Luz",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Silvio César Gonçalves da Silva",
+    "cargo": "Tecnico em enfermagem",
+    "local_trabalho": "Hospital e Maternidade Cruz Azul",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Luciana Martins dos Santos",
+    "cargo": "Coordenador de Adm Pessoal e Relações Trabalhistas e Sindicais",
+    "local_trabalho": "Hospital Alemão Oswaldo Cruz",
+    "categoria": "convidado",
+    "premiado": true,
+    "status": "pendente"
+  },
+  {
+    "nome": "Adailton da Conceição Chiceri",
+    "cargo": "",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Dr.. Alexandre Cavalheiro",
+    "cargo": "Médico",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Bruna dos Anjos Rocha",
+    "cargo": "Chefe de Gabinete",
+    "local_trabalho": "Formada em Gestão Pública",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Cláudio Santos",
+    "cargo": "Jornalista, Ativista em Saúde, Acorrentado no Hosp. Brasilândia",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Dr.. Cleiton Sá",
+    "cargo": "Perito Forense, Jornalista Investigador",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Danielle Ferreira Nascimento Moraes",
+    "cargo": "",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Francisco Teodoro Nobre",
+    "cargo": "Cirurgião Cardiovascular",
+    "local_trabalho": "Hospital Municipal Alexandre Zairo",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Helena Souza Bezerra",
+    "cargo": "",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Dr.. Hercules Carlos",
+    "cargo": "Médico",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "José Ricardo Coelho",
+    "cargo": "",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Juliana dos Santos Barbalho",
+    "cargo": "",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Miriam Costa",
+    "cargo": "Advogada nos BR/USA, Jornalista",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Paulo da Silva Amori",
+    "cargo": "",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Paulo Tasso",
+    "cargo": "",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Dr.. Ramon Cavalcante",
+    "cargo": "Médico",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Vanessa Cavaco",
+    "cargo": "Profissional da Saúde",
+    "local_trabalho": "",
+    "categoria": "autoridade",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "TIAGO CELESTINO CERQUEIRA",
+    "cargo": "Geo das Organizações CINLEB",
+    "local_trabalho": "Organizações Cinleb",
+    "categoria": "convidado",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Alessandra Gonçalves de Oliveira",
+    "cargo": "Advogada",
+    "local_trabalho": "ALESP",
+    "categoria": "convidado",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Mirelle Fabiana Trevisan",
+    "cargo": "Técnica de Recursos Humanos",
+    "local_trabalho": "1ª Dama de Aracariguama",
+    "categoria": "convidado",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maria de Fátima Cavalcante Teixeira",
+    "cargo": "Conselheira gestora de saúde São Paulo",
+    "local_trabalho": "Hospital municipal Dr Alexandre Zaio",
+    "categoria": "convidado",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Rômulo Benedito Cavalcante Teixeira",
+    "cargo": "Medium",
+    "local_trabalho": "Trabalhou 8 anos no AMA / UBS",
+    "categoria": "convidado",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Dr.. José de Lima Oliveira Junior",
+    "cargo": "Médico - Cirurgião Cardiovascular Especialista em Transplantes de Coração",
+    "local_trabalho": "InCor HC FMUSP",
+    "categoria": "convidado",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Idinei Marcio Gomes",
+    "cargo": "Fundador e Diretor Executivo",
+    "local_trabalho": "L&I Consultoria Financeira e Intermediação de Negócios Ltda",
+    "categoria": "convidado",
+    "premiado": false,
+    "status": "pendente"
+  },
+  {
+    "nome": "Maurício Andrade Rodrigues da Costa",
+    "cargo": "Executivo de Gestão de Concessões e Infraestrutura Pública",
+    "local_trabalho": "SP+Escolas",
+    "categoria": "convidado",
+    "premiado": false,
+    "status": "pendente"
+  }
+]

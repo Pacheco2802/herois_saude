@@ -13,12 +13,6 @@ const io = new Server(httpServer, {
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// ── Health check (usado pelo Railway) ────────────────────────────────────────
-
-app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', uptime: process.uptime() });
-});
-
 // ── Pessoas ──────────────────────────────────────────────────────────────────
 
 app.get('/api/pessoas', (req, res) => {
@@ -226,27 +220,11 @@ io.on('connection', (socket) => {
   socket.on('ping_viewer', () => socket.emit('pong_viewer'));
 });
 
-// ── Seed automático ──────────────────────────────────────────────────────────
-
-function rodarSeedSeVazio() {
-  const total = db.prepare('SELECT COUNT(*) as n FROM pessoas').get().n;
-  if (total > 0) {
-    console.log(`ℹ️  Banco já possui ${total} pessoa(s) — seed ignorado.`);
-    return;
-  }
-  console.log('📋 Banco vazio — carregando lista de participantes...');
-  require('./seed');
-}
-
 // ── Start ────────────────────────────────────────────────────────────────────
 
 const PORT = process.env.PORT || 3000;
-httpServer.listen(PORT, '0.0.0.0', () => {
-  const publicUrl = process.env.RAILWAY_PUBLIC_DOMAIN
-    ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`
-    : `http://localhost:${PORT}`;
-  console.log(`\n✅ Servidor rodando na porta ${PORT}\n`);
-  console.log(`   Operador:     ${publicUrl}`);
-  console.log(`   Visualizador: ${publicUrl}?modo=visualizador\n`);
-  rodarSeedSeVazio();
+httpServer.listen(PORT, () => {
+  console.log(`\n✅ Servidor rodando em http://localhost:${PORT}\n`);
+  console.log(`   Operador:    http://localhost:${PORT}`);
+  console.log(`   Visualizador: http://localhost:${PORT}?modo=visualizador\n`);
 });

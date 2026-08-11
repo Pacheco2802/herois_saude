@@ -1,16 +1,8 @@
 // Node.js 22.5+ built-in SQLite (no native build needed)
 const { DatabaseSync } = require('node:sqlite');
-const fs = require('fs');
 const path = require('path');
 
-// Em produção (Railway) o DB fica em /data (volume persistente).
-// Em dev, na raiz do projeto.
-const dbPath = process.env.DB_PATH || path.join(__dirname, 'evento.db');
-const dbDir = path.dirname(dbPath);
-if (!fs.existsSync(dbDir)) fs.mkdirSync(dbDir, { recursive: true });
-
-console.log(`💾 Banco de dados: ${dbPath}`);
-const db = new DatabaseSync(dbPath);
+const db = new DatabaseSync(path.join(__dirname, 'evento.db'));
 
 db.exec(`
   PRAGMA journal_mode = WAL;
